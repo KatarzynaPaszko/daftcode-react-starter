@@ -12,7 +12,7 @@ class Button extends React.Component {
     const { btnText } = this.props;
 
     return (
-      <button type="button" className={btnClassName} onClick={btnFunction} style={{width: '90px'}}>
+      <button type="button" className={`btn btn-lg ${btnClassName}`} onClick={btnFunction} style={{width: '90px'}}>
         <b>{btnText}</b>
       </button>
     )
