@@ -5,7 +5,10 @@
   -webkit-transform: rotate(-5deg);
           transform: rotate(-5deg); }
   .welcome .username {
-    font-weight: normal; }
+    font-weight: bold; }
+
+.mrgBtm {
+  margin-bottom: 20px; }
 
 html {
   font-size: 10px; }
